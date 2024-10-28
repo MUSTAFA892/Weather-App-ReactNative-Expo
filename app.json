@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "WeatherApp",
-    "slug": "WeatherApp",
+    "name": "WeatherWave",
+    "slug": "WeatherWave",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon/foreground.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mustafa1234567890.WeatherWave"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon/Web.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89ed0ca2-bb6c-4ecd-9100-b3d029d29faf"
+      }
     }
   }
 }
